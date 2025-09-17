@@ -1,6 +1,6 @@
 FROM golang:latest
 
-RUN go install github.com/danielmiessler/fabric@latest
+RUN go install github.com/danielmiessler/fabric/cmd/fabric@latest
 
 RUN mkdir -p ~/.config/fabric
 
